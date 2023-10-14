@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home"
+        android:text="Welcome User!"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"
+        android:gravity="center"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/energize"
+        android:gravity="left"
+        android:layout_below="@id/home"
+        android:text="Energize"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relax"
+        android:gravity="left"
+        android:layout_below="@id/home"
+        android:layout_toRightOf="@id/energize"
+        android:text="Relax"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chill"
+        android:gravity="left"
+        android:layout_below="@id/home"
+        android:layout_toLeftOf="@id/energize"
+        android:text="Chill"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"/>
+
+        <ImageView
+            android:id="@+id/atl"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/alltimelow"
+            android:layout_below="@id/chill"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp">
+
+        </ImageView>
+
+    <TextView
+        android:id="@+id/dmcmi"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Dear Maria, Count Me In"
+        android:textColor="@color/white"
+        android:layout_below="@id/energize"
+        android:paddingLeft="100dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/dmcmi1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="All Time Low"
+        android:textColor="@color/white"
+        android:layout_below="@id/dmcmi"
+        android:paddingLeft="100dp">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/rebelution"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/dmcmi1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rebelution">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/as"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/dmcmi1"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Attention Span"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/rebelution1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/as"
+        android:paddingLeft="100dp"
+        android:text="Rebelution"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/oal"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/rebelution"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/orange">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/aa"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/rebelution"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Heaven Knows"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/aa1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/aa"
+        android:paddingLeft="100dp"
+        android:text="Orange and Lemons"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/yoasobi"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/oal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/yoasobi">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ab"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/oal"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Racing Into The Night"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ab1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ab"
+        android:paddingLeft="100dp"
+        android:text="Yoasobi"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ac"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/yoasobi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/yoasobi">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ac1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/yoasobi"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Probably"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ac2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ac1"
+        android:paddingLeft="100dp"
+        android:text="Yoasobi"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ad"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/ac"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/rebelution">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ad1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ac"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Feeling Alright"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ad2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ad1"
+        android:paddingLeft="100dp"
+        android:text="Rebelution"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ae"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@id/ad"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/yoasobi">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/ae1"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ad"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="100dp"
+        android:text="Halzion"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/ae2"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_below="@id/ae1"
+        android:paddingLeft="100dp"
+        android:text="Yoasobi"
+        android:textColor="@color/white">
+
+    </TextView>
+
+</RelativeLayout>
